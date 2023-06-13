@@ -15,15 +15,15 @@ import vcf from 'vcard-builder'
 		vcf.Version({ version: '3.0' }),
 		vcf.Name({ familyName: "Mis'hal", givenName: 'Sami' }),
 		vcf.Emails([
-			{ email: 'sami.mishal.1998@gmail.com', type: 'work' },
-			{ email: 'samishal.1998@gmail.com', type: 'personal' },
+			{ email: 'samishal.1998@gmail.com', type: 'work' },
+			{ email: '********@@gmail.com', type: 'personal' },
 		]),
 		vcf.Telephones([
-			{ telephone: '+201010187812', type: 'work' },
-			{ telephone: '+201558199897', type: 'personal' },
+			{ telephone: '+201000000000', type: 'work' },
+			{ telephone: '+201512345687', type: 'personal' },
 		]),
-		vcf.URL({ label: 'Facebook', link: 'https://fb.com/samy.mishal' }),
-		vcf.URL({ label: 'LinkedIn', link: 'https://linkedin.com/samy.mishal' }),
+		vcf.URL({ label: 'Facebook', link: 'https://*****************' }),
+		vcf.URL({ label: 'LinkedIn', link: 'https://www.linkedin.com/in/sami-mishal-612261161/' }),
 		vcf.Gender({ gender: 'M' }),
 	);
 console.log(vcard)
@@ -36,12 +36,12 @@ console.log(vcard)
 BEGIN:VCARD
 VERSION:3.0
 N:Mis'hal;Sami;;;
-EMAIL;PREF=1;TYPE=work:sami.mishal.1998@gmail.com
-EMAIL;PREF=2;TYPE=personal:samishal.1998@gmail.com
-TEL;PREF=1;TYPE=work:+201010187812
-TEL;PREF=2;TYPE=personal:+201558199897
-URL;TYPE=Facebook:https://fb.com/samy.mishal
-URL;TYPE=LinkedIn:https://linkedin.com/samy.mishal
+EMAIL;PREF=1;TYPE=work:samishal.1998@@gmail.com
+EMAIL;PREF=2;TYPE=personal:********@gmail.com
+TEL;PREF=1;TYPE=work:+201000000000
+TEL;PREF=2;TYPE=personal:+201512345687
+URL;TYPE=Facebook:https://*****************
+URL;TYPE=LinkedIn:https://www.linkedin.com/in/sami-mishal-612261161/
 GENDER:M
 ```
 
